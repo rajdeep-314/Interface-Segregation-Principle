@@ -103,7 +103,7 @@ classDiagram
 
 ## Commands
 
-Building and testing:
+### Building and Testing
 
 - Build the project using:
 
@@ -117,7 +117,7 @@ Building and testing:
    dotnet test
    ```
 
-Test coverage report and visualization:
+### Test Coverage Report and Visualization
 
 - Generate test coverage statistics:
 
