@@ -28,7 +28,7 @@ The objective is to:
 
 > Model teaching, grading and course-viewing capabilities for an online
 > classroom without giving every user one oversized interface and forcing roles
-> to depend on methods that they doesn't use.
+> to depend on methods that they don't use.
 
 There are three roles involved:
 
@@ -36,9 +36,9 @@ There are three roles involved:
 2. Teaching assistant
 3. Lecturer
 
-As the problem statement highlights, if we were to have one big interface with the capabilities of all of these roles, then the implementation classese for these roles would be forced to implement methods that they do not support. This approach is a violation of ISP.
+As the problem statement highlights, if we were to have one big interface with the capabilities of all of these roles, then the implementation classes for these roles would be forced to implement methods that they do not support. This approach is a violation of ISP.
 
-Instead, the project has narrower, role-specific interfaces and the implementation classes implement mulitple such interfaces. This is in line with ISP and the implementation classes no longer have to implement any roles that they should not implement.
+Instead, the project has narrower, role-specific interfaces and the implementation classes implement multiple such interfaces. This is in line with ISP and the implementation classes no longer have to implement any roles that they should not implement.
 
 ## Design Overview
 
@@ -56,7 +56,7 @@ In terms of actual implementation classes, we have three of those, one per role.
 - `TeachingAssistant`: `ICourseViewer`, `IGrader`
 - `Lecturer`: `ICourseViewer`, `IGrader`, `ICourseEditor`
 
-With this approach, no class is forced to implement as method that they do not support.
+With this approach, no class is forced to implement a method that they do not support.
 
 ## Class Diagram
 
