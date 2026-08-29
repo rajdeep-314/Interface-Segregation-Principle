@@ -152,10 +152,10 @@ Here are some statistics related to the test cases:
 
 | Target Class | Constructor Guards | Interface / ISP Exclusion | Method & Argument Validation | Console Output Verification | Total Tests |
 |---|---|---|---|---|---|
-| Student | 3 | 3 | 2 | 3 | 11 |
-| TeachingAssistant | 3 | 3 | 5 | 4 | 15 |
-| Lecturer | 3 | 3 | 6 | 5 | 17 |
-| Total | 9 | 9 | 13 | 12 | 43 |
+| Student | 1 | 3 | 1 | 3 | 8 |
+| TeachingAssistant | 3 | 1 | 8 | 4 | 16 |
+| Lecturer | 3 | 1 | 12 | 3 | 19 |
+| **Total** | **9** | **3** | **23** | **8** | **43** |
 
 - Total Test Cases: 43
 - Pass Rate: 100% (43 passed, 0 failed, 0 skipped)
